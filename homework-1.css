@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000080;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bigLetter {
+    font-size: 36px;
+}
+
+.lessBigLetter {
+    font-size: 18px;
+}
+
+table {
+    width: 90%;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:visited {
+    color:#FF0000;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-size: 10px;
+}
+
+img {
+    width: 100px;
+    height: 40px;
+}
+
+p.ending {
+    text-align: left;
+}
+
+.nospace {
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}

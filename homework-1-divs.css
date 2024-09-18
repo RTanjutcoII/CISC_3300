@@ -1,0 +1,22 @@
+.div1 {
+    background-color: red;
+}
+
+.div2 {
+    background-color: blue;
+}
+
+.div3 {
+    background-color: green;
+}
+
+.maindiv {
+    width:400px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}

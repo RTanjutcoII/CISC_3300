@@ -1,0 +1,8 @@
+1. HTML (Hypertext Markup Language) is a coding language that creates structure for a web page and gives users the ability to interact with it.
+2. CSS (Cascading Style Sheets) is a coding language that controls the visuals of web pages and HTML.
+3. Fordham's website's structure gives a variety of options to the user. It shows them articles about the latest in Fordham news directly. If the user wants to look for something specific, then the search tool and the side bar are on top of the screen.
+4. An HTML element is a collection of start and end tags with the content inserted between them. These are the building blocks of any HTML page. A tag is just like a container. For example, the opening tag <a> will also have a closing tag </a>. Attributes give more details about the elements, and they provide extra information about an element's content.
+5. The selector dictates what is being styled, while the declaration is what dictates how the selector is styled.
+6. CSS rules cascade, as the order of how the code is written can dictate how the webpage appears, with the bottom ultimately taking precedence over the top should two selectors be equal.
+7. <img src="images/pinecone.jpg">
+8. When a user fills in an HTML form and presses a button, it submits the information to the server.
