@@ -1,0 +1,19 @@
+h1 {
+    color: #A8BEF0;
+    font-family: "Unna";
+    text-align: center;
+    font-size: 100px;
+    background-color: #2B3957;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    margin-bottom: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

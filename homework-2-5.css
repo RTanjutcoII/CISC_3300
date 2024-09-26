@@ -1,0 +1,85 @@
+.left {
+    width: 23%;
+    height: 95vh;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+.right {
+    width: 45%;
+    height: 95vh;
+    border-left: thin solid grey;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 15%;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+html, body {
+    height: 95vh;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.red {
+    color: #900028;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #E9E9E9;
+    vertical-align: middle;
+}
+
+td {
+    border-left: thin solid #900028;
+    padding: 10px 33px 10px 10px;
+}
+
+h2.boxed {
+    text-align: center;
+    background-color: #900028;
+    padding: 20px;
+    color: white;
+    width: 50%;
+
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+.ul {
+    text-decoration: underline;
+}
+
+p {
+    margin: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+img {
+    object-fit: contain;
+    width: 28%;
+    height: 28%;
+    float: right;
+    margin-left: 20px;
+}
