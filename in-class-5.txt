@@ -1,0 +1,6 @@
+1. model, access, update
+2. Cross-Site Scripting Attacks
+3. things
+4. addListenerEvent()
+5. jQuery
+6. val()
