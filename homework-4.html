@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $("#bluelist").on("click", function () {
+                    $("#bluelist").attr('class','container-color')
+                })
+
+                const cats = [
+                {
+                    name: 'Charlie',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Lily',
+                    adoptionStatus: 'not-available'
+                },
+                {
+                    name: 'Coco',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Oreo',
+                    adoptionStatus: 'not-available'
+                },
+                {
+                    name: 'Luna',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Milo',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Lola',
+                    adoptionStatus: 'not-available'
+                },
+                {
+                    name: 'Leo',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Willow',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Bella',
+                    adoptionStatus: 'not-available'
+                },
+                {
+                    name: 'Max',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Cleo',
+                    adoptionStatus: 'available'
+                },
+                {
+                    name: 'Lucy',
+                    adoptionStatus: 'not-available'
+                },
+                {
+                    name: 'Daisy',
+                    adoptionStatus: 'available'
+                },
+                ];
+
+                for(let i = 0; i < cats.length; i++) {
+                    $("#cats-list").append("<li>" + cats[i].name + "</li>");
+                }
+
+                $("#no8").on("submit", function () {
+                    event.preventDefault()
+                    let inputvalue = $("#no8-1").val();
+                    if(inputvalue == "") {
+                        $("#errormessage").empty()
+                        $("#errormessage").text("Please Provide a Value").attr('class', 'red-background')
+                    }
+                    else {
+                        $("#errormessage").empty()
+                        $("#errormessage").text("Success").attr('class', 'green-background')
+                        console.log(inputvalue)
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <ul id="bluelist">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+        </ul>
+        <ul id="cats-list">
+        </ul>
+        <form id="no8">
+            <label>Enter text:</label>
+            <input type="text" id="no8-1">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="errormessage"></div>
+    </body>
+    <style>
+        .container-color {
+            color: blue;
+        }
+        .red-background {
+            background-color: red;
+        }
+        .green-background {
+            background-color: green;
+        }
+    </style>
+</html>
