@@ -1,0 +1,8 @@
+1. htaccess
+2. PHP processing block
+3. $
+4. non primitive values
+5. associative array
+6. double quotes
+7. require
+8. type hinting
