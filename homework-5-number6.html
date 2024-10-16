@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+
+        <div id="weather-status"></div>
+
+        <script>
+            $(document).ready(function () {
+             $.ajax({
+                 url: "https://api.open-meteo.com/v1/forecast?latitude=40.7143&longitude=-74.006&current=temperature_2m&temperature_unit=fahrenheit&timezone=America%2FNew_York&forecast_days=1",
+                 type: "GET",
+                 dataType: "json",
+                 success: function (data) {
+                    var temp = data.current.temperature_2m;
+
+                     $("#weather-status").append(temp + " °F")
+                 }
+                })
+            });
+        </script>
+    </body>
+</html>

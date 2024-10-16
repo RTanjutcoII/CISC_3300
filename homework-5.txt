@@ -1,0 +1,9 @@
+1. HTTP stands for Hyper Text Transfer Protocol. It is how the internet handles communication between clients and servers, and is done by requests and responses. It has a few different methods. The GET method retrieves data. the POST method submits an entity to any specified resource, which usually causes a change in state or side effects on the server, usually creating a new resource. The PUT method replaces all current representations of the target resource with the request payload and updates everything for a resource. The PATCH method partially modifies a resource. Finally, the DELETE method deletes a resource.
+2. API stands for application programming interface. It's the way two or more computer programs or components communicate with each other. JSON, standing for JavaScript object notation, is an open standard file format and data interchange format that uses readable text to store and transmit data objects consisting of attribute–value pairs and arrays (or other serializable values). The entire internet runs on JSON.
+3. AJAX stands for Asynchronous JavaScript and XML. It allows web pages to be updated asynchronously. This is done by exchanging data with a web server behind the scenes. This means it's possible to update parts of a web page without reloading the page itself. Asynchronous code is code that runs in the background without blocking the execution of other code. It allows code blocks to execute at a future point in time.
+4. REST is an architectural style of organizing code so that requests can be performed in a standardized way.
+4a. HTTP: GET, URI: /posts
+4b. HTTP: GET, URI: /posts/{id}
+4c. HTTP: POST, URI: /post/{id}
+4d. HTTP: PUT, URI: /post/{id}
+5. Hoisting is when a script enters a new execution, and variables, functions, and arguments are created. Closures are the ability of a function to remember the variables and functions that are declared in its outer scope.
