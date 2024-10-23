@@ -1,0 +1,5 @@
+1. PHP is an interpreted programming language used to build webpages. Server side languages process user input and interact with other servers.
+2. Both PHP and JavaScript are dynamic and weakly typed. They do have a few differences, though. For example, JavaScript is event-driven, while PHP is procedural.
+3. PHP has many useful built in functionalities that put it ahead of other server side languages. It's easy to apply in use and it syncs fast with most databases and web servers.
+4. If a file isn't found, the include statement will throw an error, but continue. The require statement would stop execution of the file isn't found. If you tried to include a variable from a file that hasn't been included yet, it will not properly get the file, as includes are sequential.
+5. The difference is that echo displays the value of a variable, while var_dump output both the variable and its typing. For practical usage, echo is used to see what certain variables will look like when properly display, while var_dump can be used as a debugging tool.
