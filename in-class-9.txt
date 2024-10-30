@@ -1,0 +1,10 @@
+1. URL
+2. $_GET
+3. $_POST
+4. not appear
+5. HTML structure
+6. correctness
+7. cookie
+8. sessions
+9. errors - messages that the PHP interpreter creates when code fails
+exceptions - exceptional circumstances that aren't caused by coding error
