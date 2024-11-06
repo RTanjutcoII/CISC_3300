@@ -1,0 +1,10 @@
+1. www.example.com/search?order=alphabetical&sort_by=mostliked
+2. To escape a character is to stop a browser html interpreter from treating certain characters (such as <, =, &, etc.) as HTML code.
+3a. 200 - success - The page requested has been fetched
+3b. 400 - bad request - The request is malformed, has deceptive routing, or is invalid.
+3c. 401 - unauthorized error - The status code requires user authentication
+3d. 403 - forbidden - The request is understood, but the server cannot fulfill it. 
+3e. 404 - not found - The server is unwilling to describe the reason of the refusal, the server isn't able to find representation for the target resource, or the server hasn't found anything.
+3f. 500 - internal server error - The server encounters something unexpected or there's an error during a connection to the server.
+4. We need to validate data because we need to ensure that the data is an acceptable value for the execution of the code. We wouldn't want a number if we want a string, and we wouldn't want a user without a username.
+5. Sessions store information about a user and their preferences for a single visit to the site. Cookies are text files in which a website tells a browser to store data about a user.
